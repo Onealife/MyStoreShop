@@ -19,6 +19,8 @@ func Connect(config *config.Config) *gorm.DB {
 	if err != nil {
 		log.Fatalf("ไม่สามารถเชื่อมต่อฐานข้อมูลได้: %v", err)
 	}
+	migrateDatabase(db)
+
 	log.Println("เชื่อมต่อฐานข้อมูลสำเร็จ")
 
 	return db
