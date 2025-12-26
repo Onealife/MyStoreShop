@@ -30,7 +30,7 @@ func LoadConfig() *Config {
 		AppEnv:  os.Getenv("APP_ENV"),
 		AppPort: os.Getenv("APP_PORT"),
 		AppUrl:  os.Getenv("APP_URL"),
-		DBHost:  os.Getenv("DB_HOST "),
+		DBHost:  os.Getenv("DB_HOST"),
 		DBPort:  os.Getenv("DB_PORT"),
 		DBName:  os.Getenv("DB_NAME"),
 		DBUser:  os.Getenv("DB_USER"),
