@@ -1,4 +1,4 @@
-# Nutchapholshop
+# Nutchapholshop (เพื่อการศ๊กษาเท่านัน)
 
 แอปพลิเคชัน E-Commerce ขนาดกลาง ที่พัฒนาด้วย Go และ PostgreSQL
 
